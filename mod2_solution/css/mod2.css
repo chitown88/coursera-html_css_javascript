@@ -11,8 +11,6 @@ h1 {
 
 #container {
   position: relative;
-  /*border: 3px solid black;*/
-  /*background-color: #A52A2A;*/
   width: 100%;
   font-family: Helvetica;
   float: left;
@@ -20,7 +18,7 @@ h1 {
 
 div#container > div {
   position: relative;
-  background-color:#A70404;
+  background-color:#9a8d8d;
 }
 
 #chicken {
@@ -84,18 +82,20 @@ div#sushi > #headline {
 /*********** Desktop *********/
 @media (min-width: 992px) {
   #chicken {
-    width:30%;
-    margin-left:0%;
+    width:29%;
+    margin-left:3%;
   }
   
    #beef {
-    width:30%;
-    margin-left:5%;
+    width:29%;
+    margin-left:3%;
   }
   
   #sushi {
-    width:30%;
-    margin-left:5%;
+    width:29%;
+    margin-left:3%;
+    margin-right:3%;
+    
   }
 }
 
@@ -104,17 +104,19 @@ div#sushi > #headline {
 /*********** Tablet *********/
 @media (min-width: 768px) and (max-width: 991px) {
   #chicken {
-    width:48%;
-    margin-left: 0%;
+    width:45%;
+    margin-left: 3%;
   }
   
    #beef {
-    width:48%;
-    margin-left:4%;
+    width:45%;
+    margin-left:3%;
   }
   
   #sushi {
-    width:100%;
+    margin-left:3%;
+    margin-right:3%;
+    width:93%;
     margin-top:5%;
   }
 }
@@ -123,17 +125,23 @@ div#sushi > #headline {
 /*********** Mobile *********/
 @media (max-width: 767px) {
   #chicken {
-    width:100%;
+    width:94%;
+    margin-left:3%;
+    margin-right:3%;
     margin-bottom: 4%;
   }
   
    #beef {
-    width:100%;
+    width:94%;
+    margin-left:3%;
+    margin-right:3%;
     margin-bottom:4%;
   }
   
   #sushi {
-    width:100%;
+    width:94%;
+    margin-left:3%;
+    margin-right:3%;
 
   }
 }
